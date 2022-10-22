@@ -1,0 +1,32 @@
+.container {
+  margin: 50px auto;
+  width: fit-content;
+}
+.inputContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inputContainer input {
+  width: 350px;
+  margin-top: 50px;
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+  background-color: #adb5bd;
+  padding: 10px;
+  border: 1px solid #212529;
+  transition: all 0.2s ease;
+}
+.inputContainer input:focus {
+  outline: none;
+  border-color: rgb(255, 255, 255);
+  box-shadow: rgba(230, 230, 230, 0.24) 0px 3px 8px;
+}
+@media (max-width: 520px) {
+  .inputContainer input {
+    width: 270px;
+    margin-top: 20px;
+    height: 30px;
+  }
+}
